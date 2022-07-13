@@ -1,0 +1,65 @@
+.bannerContainer{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .heroContent{
+
+        margin: 0 auto;
+    }
+    
+    h1{
+        font-size: 2rem;
+        line-height: 1.2em;
+        text-align: center;
+        color: white;
+    }
+    
+    .bannerContainer .subhead{
+        font-size: 1rem;
+        line-height: 1.3em;
+        text-align: center;
+        color: white;
+        margin: 0 auto;
+        margin-top: 1.2em;
+    }
+
+
+
+    @media only screen and (min-width: 520px) {
+        .wrapper {
+          padding: 2.5em;
+        }
+      }
+      
+      @media only screen and (min-width: 720px) {
+        .wrapper {
+          padding: 2.5em 4em;
+        }
+      }
+      
+
+@media only screen and (min-width: 800px) {
+    h1{
+        font-size: 3.2rem;
+    }
+
+    .heroContent{
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+        
+    .bannerContainer .subhead{
+        font-size: 1rem;
+        line-height: 1.3em;
+        text-align: center;
+        color: white;
+        margin-top: 2em;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+}

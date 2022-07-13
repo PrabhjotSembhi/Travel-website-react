@@ -1,0 +1,74 @@
+.wrapper {
+  padding: 1.5em;
+}
+
+.ServicesContainer{
+  background: #F5F6F8;
+  padding: 4em 0 ;
+}
+
+p{
+  color: #5C6272;
+}
+
+
+.title{
+  font-size: 1.7rem;
+  line-height: 1.2em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.ServicesContainer .subhead{
+  font-size: 1rem;
+  line-height: 1.3em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin: 0 auto;
+  margin-top: 1.2em;
+}
+
+@media only screen and (min-width: 520px) {
+  .wrapper {
+    padding: 2.5em;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .wrapper {
+    padding: 2.5em 4em;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+
+  .wrapper {
+    padding: 1.2em;
+  }
+
+  .title{
+    font-size: 2.8rem;
+    line-height: 1.2em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  
+  .ServicesContainer .subhead{
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    text-align: center;
+    color: #5C6272;
+    max-width: 650px;
+    margin: 0 auto;
+    
+    margin-top: 1em;
+  }
+
+  .serviceslist{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2em;
+
+    margin-top: 2.5em;
+  }
+}
