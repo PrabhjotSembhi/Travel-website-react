@@ -1,0 +1,86 @@
+.topcitiesContainer{
+    background: #F5F6F8;
+    padding: 2em 0;
+    overflow: hidden;
+}
+
+.topcitiesContainer .wrapper{
+
+    overflow: hidden;
+}
+
+.subtitle{
+font-weight: 600;
+font-size: .8em;
+color: #4141A5;
+}
+
+.topcitycard{
+    transition-property: all;
+    transition-duration: 0.5s;
+    min-width: 100%;
+    padding: 1em;
+}
+
+
+.topcitiesContainer .title{
+    text-align: left;
+    margin-top: .4em;
+}
+
+.topcitiesContainer .subhead{
+    margin-top: .5em;
+}
+
+.slider{
+    display: flex;
+}
+
+.controls{
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+    margin-top: 1em;
+}
+
+.control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 25px 40px rgba(59, 80, 90, 0.05);
+
+}
+
+
+@media only screen and (min-width: 800px) {
+
+
+
+    .topcitiesContainer .wrapper{
+        max-width: 1050px;
+    }
+
+
+    .row1{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+
+    .headings{
+        max-width: 450px;
+    }
+
+
+    .topcitycard{
+        transition-property: all;
+        transition-duration: 0.5s;
+        min-width: 340px;
+        padding: 1.5em;
+    }
+}

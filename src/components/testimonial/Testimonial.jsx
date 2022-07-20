@@ -1,9 +1,15 @@
 import React from 'react'
 import './testimonial.css';
 
-const Testimonial = () => {
+const Testimonial = (props) => {
   return (
-    <div>Testimonial</div>
+    <div className='testimonialInnerWrapp'>
+      <img src={props.Img} alt="" />
+      <p className="name">{props.Name}</p>
+      <p className="tile">{props.Title}</p>
+      <div className="rating">{props.Rating}</div>
+      <p className="review">{props.Review}</p>
+    </div>
   )
 }
 

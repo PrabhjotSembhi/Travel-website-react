@@ -3,7 +3,6 @@ import { Navbar, Banner } from "./components";
 import {
   Services,
   Destinations,
-  Partners,
   Tourpacks,
   Topcities,
   Testimonials,
@@ -21,10 +20,10 @@ function App() {
       <Services />
       <Destinations />
       <Tourpacks />
-      <Partners />
       <Topcities />
       <Testimonials />
       <Optin />
+   
       <Footer />
     </div>
   );

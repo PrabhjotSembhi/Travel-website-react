@@ -1,0 +1,31 @@
+.country{
+    color: white;
+    background: rgba(255, 255, 255, 0.24);
+    padding: .5em 1.2em;
+    font-size: 1.2rem;
+    border-radius: 50px;
+
+
+}
+
+.cityContainer{
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 100%;
+    min-height: 400px;
+}
+
+.cityName{
+    font-size: 1.6em;
+    font-weight: 700;
+    color: white;
+
+    text-shadow: 0px 0px 35px -2px rgba(0,0,0,0.44);
+}
+
+.stat{
+    color: white;
+}

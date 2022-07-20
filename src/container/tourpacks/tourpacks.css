@@ -1,0 +1,27 @@
+.TourpacksContainer{
+    background: #F5F6F8;
+    padding: 4em 0 ;
+  }
+
+  .TourpacksContainer .subhead{
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 800px) {
+    .TourpacksContainer{
+      padding: 1.2em ;
+    }
+    .TourpacksList{
+      margin-top: 3.5em;
+      display: flex;
+      justify-content: space-between;
+      
+    }
+
+    .TourpacksContainer .subhead{
+      text-align: center;
+      max-width: 550px;
+      margin: 0 auto;
+    }
+  
+  }

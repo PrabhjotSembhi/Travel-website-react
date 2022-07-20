@@ -1,0 +1,38 @@
+.testimonialContainer{
+    background: #F5F6F8;
+    padding: 2em 0;
+    overflow: hidden;
+}
+
+.testimonialContainer .title{
+    text-align: left;
+}
+  
+
+
+
+.testmonialCard{
+    min-width: 100%;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.testmonialCard{
+    margin-top: 2em;
+}
+
+@media only screen and (min-width: 800px) {
+
+    .testimonialContainer{
+overflow: hidden;        padding: 4em 0;
+    }
+    
+.testmonialCard{
+    min-width: 320px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+ 
+
+}
+

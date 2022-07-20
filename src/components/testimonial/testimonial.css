@@ -1,0 +1,27 @@
+.testimonialInnerWrapp{
+    background: white;
+    padding: 1.5em;
+    margin-right: 1.5em;
+    border-radius: 15px;
+
+}
+
+.testimonialInnerWrapp img {
+    border-radius: 100%;
+}
+
+.name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:#292929;
+    margin-top: 1em;
+}
+
+.rating{
+    margin-top: 1.5em;
+}
+
+.review{
+    font-size: 1em;
+}
+

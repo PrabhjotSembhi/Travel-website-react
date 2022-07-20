@@ -1,0 +1,54 @@
+.Tourpack{
+    background: white;
+    padding: 1em;
+    border-radius: 10px;
+    margin-top: 2.5em;
+}
+
+.Tourpack img{
+    width: 100%;
+    margin-bottom: 1em;
+
+    
+}
+
+.Tourpack svg{
+    width: 20px;
+    height: 20px;
+    margin-right: 0.4em;
+}
+
+.days{
+    color: #7C8290;
+    font-size: .8em;
+}
+
+.timing{
+    display: flex;
+
+}
+
+
+
+.packdetails{
+    margin-top: .3em;
+    margin-bottom: 1em;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.price{
+    color: red;
+    font-weight: 600;
+    font-size: .8em;
+}
+
+@media only screen and (min-width: 800px) {
+    .Tourpack{
+      margin: .5em;
+    }
+    
+
+}

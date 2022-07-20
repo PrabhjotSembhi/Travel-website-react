@@ -69,7 +69,6 @@ const DestinationsData = [
  
 ];
 
-let ActiveIndex = 0;
 let nextSlide,prevSlide;
 
 let nextpressed;
@@ -116,6 +115,54 @@ const Destinations = () => {
   return (
     <div className="DestinationsContainer">
       <div className="wrapper">
+
+      <div className="row1">
+          <div className="headings">
+            <p className="subtitle">ABOUT US</p>
+            <h2 className="title">Explore all corners of the world with us.</h2>
+            <p className="subhead">
+            These exercises ran in parallel with a series of focus groups comprising of parents. These exercises ran in parallel with a series of focus groups comprising of parents.
+            </p>
+          </div>
+
+          <div className="controls">
+            <div onClick={prevSlide} className="control">
+              <svg
+                width="15"
+                height="13"
+                viewBox="0 0 15 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M5.24264 11.8033L0.46967 7.03031C0.176777 6.73741 0.176777 6.26254 0.46967 5.96965L5.24264 1.19668C5.53553 0.903784 6.01041 0.903784 6.3033 1.19668C6.59619 1.48957 6.59619 1.96444 6.3033 2.25734L2.81066 5.74998H14C14.4142 5.74998 14.75 6.08576 14.75 6.49998C14.75 6.91419 14.4142 7.24998 14 7.24998H2.81066L6.3033 10.7426C6.59619 11.0355 6.59619 11.5104 6.3033 11.8033C6.01041 12.0962 5.53553 12.0962 5.24264 11.8033Z"
+                  fill="#152137"
+                />
+              </svg>
+            </div>
+            <div onClick={nextSlide} className="control">
+              <svg
+                width="15"
+                height="13"
+                viewBox="0 0 15 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M9.75736 11.8033L14.5303 7.03031C14.8232 6.73741 14.8232 6.26254 14.5303 5.96965L9.75736 1.19668C9.46447 0.903784 8.98959 0.903784 8.6967 1.19668C8.40381 1.48957 8.40381 1.96444 8.6967 2.25734L12.1893 5.74998H1C0.585786 5.74998 0.25 6.08576 0.25 6.49998C0.25 6.91419 0.585786 7.24998 1 7.24998H12.1893L8.6967 10.7426C8.40381 11.0355 8.40381 11.5104 8.6967 11.8033C8.98959 12.0962 9.46447 12.0962 9.75736 11.8033Z"
+                  fill="#152137"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+
+
         <div className="slideRow">
           {DestinationsData.map((item, index) => (
             <div style={nextpressed ? nextStyle: prevStyle}
@@ -146,8 +193,7 @@ const Destinations = () => {
             </div>
           ))}
         </div>
-        <button onClick={nextSlide} >Next</button>
-        <button onClick={prevSlide} >Prev</button>
+
 
       </div>
     </div>
